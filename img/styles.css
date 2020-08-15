@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: red;
+    font-family: 'Righteous', cursive;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    list-style: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.nav-links a:hover{
+    background-color: #fff;
+    color: black;
+}
+.burger{
+    display: none;
+}
+.burger div {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px;
+}
